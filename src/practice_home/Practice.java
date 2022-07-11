@@ -3,7 +3,7 @@ package practice_home;
 import java.util.Scanner;
 
 public class Practice {
-    public static void main(String[] args
+    public static void main(String[] args) {
         isPalindrom();
         computeLenght();
         takeExponent();
