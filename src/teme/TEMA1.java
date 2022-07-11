@@ -386,5 +386,127 @@ class TEMA1 {
 //        }
 //
 //    }
+        //Scrie un program care sa afiseze numerele de la 1 la 10
+//        int i = 1;
+//        while (i <= 10) {
+//            System.out.println(i);
+//            i++;
+//        }
+
+
+        //Scrie un program care sa afiseze suma numerelor de la 1 la 10
+//        int i = 1;
+//        int sum = 0;
+//        while (i <= 10) {
+//            System.out.println(i);
+//            sum = sum + i;
+//            i++;
+//        }
+//        System.out.println(sum);
+
+
+        //Scrie un program care sa afiseze numerele pare de la 1 la 10
+        //varianta 1
+//        int i = 1;
+//        while (i <= 10) {
+//            if (i % 2 == 0) {
+//                System.out.println(i);
+//            }
+//            i++;
+//        }
+
+        //varianta 2
+//        int i = 2;
+//        while (i <= 10) {
+//            System.out.println(i);
+//            i+=2;
+//        }
+
+
+        //Scrie un program care sa afiseze suma numerelor divizibile cu 3, din intervalul [1-n], n fiind introdus de la tastatura
+//        Scanner console = new Scanner(System.in);
+//        int n;
+//        System.out.print("Introdu capatul intervalului ");
+//        n = console.nextInt();
+//        int i = 1;
+//        int sum = 0;
+//        while (i <= n) {
+//            if (i % 3 == 0) {
+//                sum+=i;
+//            }
+//            i++;
+//        }
+//        System.out.println(sum);
+
+
+        //Scrie un program care sa inverseze cifrele unui numar.
+//        int number = 123;
+//        int reversedNumber = 0;
+//        int lastDigit;
+//        while(number>0)
+//        {
+//            lastDigit = number % 10;
+//            reversedNumber = reversedNumber * 10 + lastDigit;
+//            number = number / 10;
+//        }
+//        System.out.println(reversedNumber);
+        //Scrie un program care sa caute un numar de telefon intr-o lista de numere. Programul va printa “numarul a fost gasit” sau “numarul nu a fost gasit”
+        //Am folosit tehnica presupunerii, in care presupunem prima data ca nu vom gasi numarul, iar in bucla cautam sa contestam aceasta presupunere.
+        //Retinem informatia care ne spune daca am gasit sau nu am gasit numarul in variabila isFound.
+//        int[] numbers = {1, 7, 3, 10, 9};
+//        Scanner console = new Scanner(System.in);
+//        System.out.println("Introdu numarul pe care vrei sa il cauti ");
+//        int x = console.nextInt();
+//        boolean isFound = false;
+//        for (int i = 0; i < numbers.length; i++) {
+//            if (x == numbers[i]) {
+//                System.out.println("Numarul " + x + " a fost gasit");
+//                isFound = true;
+//                break;
+//            }
+//        }
+//        if (!isFound) {
+//            System.out.println("Numarul " + x + " nu a fost gasit");
+//        }
+
+
+        //Scrie un program care sa afiseze pretul mediu pe metru patrat, dintr-o lista de preturi ale unor proprietati imobiliare:
+        //De exempu, pentru int[] prices = {1, 7, 3, 10, 9}, se va afisa in consola valoarea 6
+//        int[] prices = {1, 7, 3, 10, 9};
+//        int sum = 0;
+//        for (int i = 0; i < prices.length; i++) {
+//            sum = sum + prices[i];
+//        }
+//        int averagePrice = sum / prices.length;
+//        System.out.println("Pretul mediu pe metru patrat este " + averagePrice);
+        //Scrie un program care sa afiseze numerele de la 1 la 10
+//        for (int i=1; i<=10; i++){
+//            System.out.println(i);
+//        }
+
+        //Scrie un program care sa afiseze suma numerelor de la 1 la 10
+//        int sum = 0;
+//        for (int i=1; i<=10; i++){
+//            sum = sum + i;
+//        }
+//        System.out.println(sum);
+
+        //Scrie un program care sa afiseze numerele pare de la 1 la 10
+//        for (int i=1; i<=10; i++){
+//            if (i%2==0){
+//                System.out.println(i);
+//            }
+//        }
+
+        //Scrie un program care sa afiseze factorialul unui numar.
+//        Scanner console = new Scanner(System.in);
+//        System.out.println("Introdu numarul pentru care vrei sa calculezi factorialul ");
+//        int n = console.nextInt();
+//          int fact = 1;
+//        for (int i=1; i<=n; i++){
+//            fact *= i;
+//        }
+//        System.out.println(fact);
+    }
 }
-}
+
